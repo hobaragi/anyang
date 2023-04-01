@@ -62,5 +62,6 @@ int main()
 				else
 						printf("다시 입력하시오.\n");
 		}
+
 		return 0;
 }
