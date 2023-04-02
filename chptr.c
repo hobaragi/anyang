@@ -2,7 +2,7 @@
 
 int main()
 {
-		char ch;
+		char ch, ch2;
 		char *ptr;
 
 		//ch = 'A';
@@ -10,7 +10,9 @@ int main()
 		ptr = &ch;
 		*ptr = 'A';
 
-		printf("&ch = %p, ptr = %p, &ptr = %p, ch = %c\n", &ch, ptr, &ptr, *ptr);
+		ch2 = *ptr;
+
+		printf("&ch = %p, ptr = %p, &ptr = %p, ch = %c, ch2 = %c\n", &ch, ptr, &ptr, *ptr, ch2);
 
 		return 0;
 }
