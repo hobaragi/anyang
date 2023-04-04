@@ -10,11 +10,11 @@ int main()
 
 		for(i=0; i<10; i++)
 		{
-				ptr1[i] = 'A'+i;
-				printf("[%p] ptr1[%d] = %c\n", &(ptr1[i]), i, ptr1[i]);
+				//ptr1[i] = 'A'+i;
+				//printf("[%p] ptr1[%d] = %c\n", &(ptr1[i]), i, ptr1[i]);
 
-				//*(ptr1+i) = 'A' + i;
-				//printf("*(ptr1+%d) = %c\t&(ptr1+%d) = %p\n", i, *(ptr1+i), i, (ptr1+i));
+				*(ptr1+i) = 'A' + i;
+				printf("*(ptr1+%d) = %c\t&(ptr1+%d) = %p\n", i, *(ptr1+i), i, ptr1+i);
 		}
 
 		return 0;
