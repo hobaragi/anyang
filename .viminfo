@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :q
-|2,0,1680893831,,"q"
+|2,0,1680895759,,"q"
 
 # Search String History (newest to oldest):
 
@@ -25,14 +25,26 @@
 # Registers:
 
 # File marks:
-'0  1  0  ~/test.c
-|4,48,1,0,1680893831,"~/test.c"
+'0  4  0  ~/practice.c
+|4,48,4,0,1680895759,"~/practice.c"
+'1  1  0  ~/test.c
+|4,49,1,0,1680893831,"~/test.c"
 
 # Jumplist (newest first):
+-'  4  0  ~/practice.c
+|4,39,4,0,1680895759,"~/practice.c"
+-'  1  0  ~/practice.c
+|4,39,1,0,1680895757,"~/practice.c"
+-'  1  0  ~/test.c
+|4,39,1,0,1680893831,"~/test.c"
 -'  1  0  ~/test.c
 |4,39,1,0,1680893831,"~/test.c"
 
 # History of marks within files (newest to oldest):
+
+> ~/practice.c
+	*	1680895759	0
+	"	4	0
 
 > ~/test.c
 	*	1680893830	0
